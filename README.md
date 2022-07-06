@@ -1,7 +1,4 @@
 # Terraform on AWS - 3 Tier VPC
-
-Terraform on AWS POC
-
 ---
 ## Steps
 

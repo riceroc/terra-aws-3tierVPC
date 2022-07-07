@@ -1,3 +1,4 @@
+# VPC Module Outputs
 # VPC ID
 output "vpc_id" {
     description = "ID of the VPC"

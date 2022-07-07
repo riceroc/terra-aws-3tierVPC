@@ -1,6 +1,6 @@
 # EC2 
 
-module "web_server_sg" {
+module "public_bastion_sg" {
   source  = "terraform-aws-modules/security-group/aws"
   version = "4.9.0"
   # insert the 3 required variables here

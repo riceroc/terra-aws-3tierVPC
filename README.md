@@ -22,8 +22,9 @@ cat .aws/credentials
 aws_access_key_id = <ID HERE>
 aws_secret_access_key = <KEY HERE>
 ```
+3. Create an AWS Key Pair and copy it into the private-key folder. This is needed for the local provisioner
 
-3. Run Terraform commands
+4. Run Terraform commands
 ``` sh
 terraform init
 terraform validate

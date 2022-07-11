@@ -1,6 +1,6 @@
 # Terraform on AWS - 3 Tier VPC
 
-Deploys a v1.23 k8s cluster, Bastion EC2 instance in a 3 tier vpc (public,private, DB) with elastic ips. 
+Deploys a v1.22 k8s cluster, Bastion EC2 instance in a 3 tier vpc (public,private, DB) with elastic ips. 
 
 ---
 ## Steps

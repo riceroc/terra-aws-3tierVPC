@@ -1,4 +1,5 @@
-# EC2 
+# EC2 Bastion Security Groups
+
 
 module "public_bastion_sg" {
   source  = "terraform-aws-modules/security-group/aws"

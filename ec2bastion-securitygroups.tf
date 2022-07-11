@@ -1,5 +1,6 @@
 # EC2 Bastion Security Groups
 
+
 module "public_bastion_sg" {
   source  = "terraform-aws-modules/security-group/aws"
   version = "4.9.0"

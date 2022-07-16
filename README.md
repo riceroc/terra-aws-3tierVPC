@@ -1,6 +1,6 @@
 # Terraform on AWS - 3 Tier VPC
 
-Deploys a v1.22 k8s cluster, Bastion EC2 instance in a 3 tier vpc (public,private, DB) with elastic ips. 
+Deploys a v1.22 k8s cluster, Bastion EC2 instance in a 3 tier vpc (public,private, DB) with elastic ips. Pre-reqs are Terraform, AWS CLI and Kubectl installed.
 
 ---
 ## Steps
@@ -41,4 +41,10 @@ terraform init
 terraform validate
 terraform plan
 terraform apply
+```
+
+5. Add Eks context to local kubeconfig
+
+```sh
+aws eks --region <region> update-kubeconfig --name <cluster>
 ```
